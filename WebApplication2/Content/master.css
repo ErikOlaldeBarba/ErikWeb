@@ -113,11 +113,6 @@ h2 {
 
 
 .perfil {
-    display: flex;
-    justify-content:center;
-    width: 100%;
-    margin-bottom: 15px;
-    align-content:center;
 }
 
 .contenedor {
@@ -139,6 +134,7 @@ h2 {
 }
 
 .tablaPerfil {
+    margin:4%;
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 0 10px 10px gray;
@@ -154,10 +150,6 @@ h2 {
 
 .servicios {
     background-color: var(--fifth-color);
-    width: 100%;
-    display: inline-block;
-    align-items: center;
-    justify-content: left;
 }
 
 .servicioJumbo {
@@ -179,10 +171,6 @@ h2 {
 }
 
 .servicio {
-    position: relative;
-    float: left;
-    width: 30%;
-    margin: 1%;
     background-color: silver;
     border: 6px solid var(--main-color);
     border-radius: 40px;
@@ -194,17 +182,12 @@ h2 {
     text-overflow: ellipsis;
 }
 
-.servicio p {
-    margin: 10%;
-}
 
 
 /*******************************************************/
 
     @media screen and (max-width:50em) {
-        .perfil {
-            flex-direction:column;
-        }
+       
     }
 
 
@@ -230,19 +213,10 @@ h2 {
 
 .habilidades {
     background-color: var(--fourth-color);
-    width: 100%;
-    
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
 }
 
 .experiencia {
     background-color: var(--secondary-color);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
