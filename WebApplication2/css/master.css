@@ -1,0 +1,249 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+  /*font-family: 'Open Sans';
+  font-family: lato;*/
+  font-family: sans-serif;
+}
+
+
+:root{
+  --colorMemorable: rebeccapurple;
+  --neon-color: #2029FF;
+  --neon-secondary-color:#C9180A;
+
+  --main-color:#3caf25;
+  --secondary-color:gray;
+  --third-color:#1A630B;
+  --fourth-color:#3D37B0;
+  --fifth-color:#B04D13;
+  --sixth-color:#632F10;
+}
+
+
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+  background-color: var(--fifth-color);
+  margin: 0;
+  color:white;
+}
+
+/*******************************************************/
+.bienvenida, .biografia, .titulo{
+  display: block;
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-family:sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  background-color: var(--main-color);
+}
+
+.bienvenida{
+  top: -10%;
+}
+
+.biografia{
+  bottom:-10%;
+}
+
+#particles-js {
+       width: 100%;
+       height: 100px;
+       background-color: black;
+   }
+
+.encabezado{
+  margin-top:10px;
+  position: relative;
+  background-image:url(http://erikolalde.com/img/paisaje.jpg);
+  background-attachment: fixed;
+  background-size:100% 100%;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.encabezado p{
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/*******************************************************/
+
+
+.perfil{
+  display: inline-block;
+  width: 80%;
+  height: 500px;
+  margin-bottom: 5%;
+}
+
+.contenedor{
+  margin-top: 5%;
+  float: left;
+  width: 50%;
+  height: 500px;
+  align-items: center;
+  text-align: left;
+  font-size: 24px;
+  font-family:Verdana;
+}
+
+.imgRedonda{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.tablaPerfil{
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px gray;
+}
+.tablaPerfil td, .tablaPerfil th{
+  border-bottom: 1px solid black;
+  padding:0.5em;
+}
+
+/*******************************************************/
+
+
+.servicios{
+  background-color: gray;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.servicio{
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 80%;
+  margin: 1%;
+  background-color: silver;
+  border: 6px solid var(--main-color);
+  border-radius:40px;
+  font-size: 18px;
+  font-family:Verdana;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.servicio p{
+  margin:10%;
+
+}
+
+
+/*******************************************************/
+
+
+.educacion{
+  position: relative;
+  background-color: var(--main-color);
+  width: 100%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.educacion .servicio{
+  box-shadow: 0 0 80px gray;
+  background-image: linear-gradient(45deg, gold,white);
+}
+
+
+
+.habilidades{
+  background-color: var(--colorMemorable);;
+  width: 100%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experiencia{
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/*******************************************************/
+
+.bloqueCSS{
+  height:100px;
+  margin-bottom: 10%;
+}
+
+
+.cuadroCSS{
+  font-size:20px;
+  font-weight: 700;
+  text-align: left;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10%;
+  margin-bottom: 60px;
+  width: 75px;
+  height:75px;
+  border: 3px solid black;
+}
+
+
+.botonNeon{
+  border: 3px solid var(--neon-color);
+  border-radius: 10px;
+  color: var(--neon-color);
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.3em 0.5em;
+}
+
+.botonNeon:hover{
+  background-color: var(--neon-color);
+  color: white;
+}
+
+
+
+/*******************************************************/
+
+
+.pie{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.pie p{
+  font-size: 18px;
+  font-family:Verdana;
+  color: white;
+}
+
+.pie img{
+  width: 50px;
+  height: 50px;
+}
