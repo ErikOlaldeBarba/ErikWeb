@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\robotturmixenelnorteController.cs" />
     <Compile Include="Controllers\CarolinaMakeupController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -138,6 +139,7 @@
     <Content Include="Content\LandingPage.css" />
     <Content Include="Content\master.css" />
     <Content Include="Content\normalize.css" />
+    <Content Include="Content\robotturmixenelnorte.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -166,7 +168,10 @@
     <Content Include="img\rainbow1.jpg" />
     <Content Include="img\rainbow2.jpg" />
     <Content Include="img\rainbow3.jpg" />
+    <Content Include="img\T8.png" />
     <Content Include="img\videojuego.png" />
+    <Content Include="img\water.jpg" />
+    <Content Include="img\waterfall.jpg" />
     <Content Include="Scripts\app.js" />
     <Content Include="Content\bootstrap\bootstrap-grid.css.map" />
     <Content Include="Content\bootstrap\bootstrap-grid.min.css.map" />
@@ -214,6 +219,9 @@
     <Content Include="Views\Home\Contacto.cshtml" />
     <Content Include="Views\Home\LandingPage.cshtml" />
     <Content Include="Views\CarolinaMakeup\index.cshtml" />
+    <Content Include="Views\robotturmixenelnorte\Index.cshtml" />
+    <Content Include="Views\robotturmixenelnorte\Contact.cshtml" />
+    <Content Include="Views\robotturmixenelnorte\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

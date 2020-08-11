@@ -1,0 +1,158 @@
+﻿body {
+   width:100%;
+}
+
+section {
+    width:100%;
+    background-size:cover;
+    position:relative;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    /*background-attachment:fixed;*/
+}
+
+.water {
+    background-image: url(../img/water.jpg);
+}
+
+.waterfall {
+    background-image: url(../img/waterfall.jpg);
+}
+
+
+
+
+header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    background-color: crimson;
+    justify-content: space-between;
+    /*opacity:0.5;*/
+}
+
+/*estilos del nav del encabezado*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+        color: black;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li:hover {
+            background-color: var(--fifth-color);
+            color: white;
+            text-decoration: none;
+        }
+/**/
+
+.main-section {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.second-section{
+    padding-top:50px;
+}
+
+.second-section div:first-child{
+    text-align:center;
+}
+
+
+.third-section {
+    height: 400px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+a.boton {
+    border: 2px solid darkred;
+    border-radius: 10px;
+    color: darkred !important;
+    padding: 10px;
+    margin: 30px;
+}
+
+a.boton:hover {
+    color:white !important;
+    background-color:darkred;
+    text-decoration:none;
+}
+
+
+
+a.boton-footer {
+    top:50px;
+    margin-top:50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white !important;
+    padding: 5px;
+}
+
+
+.fourth-section {
+    height: 400px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.textoCentrado{
+    padding:50px;
+}
+
+
+footer{
+    background-color:black;
+    color:white;
+}
+
+pie {
+    padding:30px;
+}
+
+pie-elemento {
+    padding:50px;
+}
+
+.contenedorForma {
+    width: 100%;
+    height:85vh;
+    border-radius: 10px;
+    background-color: rgba(0, 125, 255, 0.5);
+    padding: 20px;
+}
+
+.tinyLetter {
+    font-size: 10px;
+}
+
+.seccionForma {
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+contact-section{
+    justify-content:flex-end;
+}
